@@ -1,0 +1,33 @@
+[info] Creating a distributable package in target/pack
+[info] Copying libraries to target/pack/lib
+[info] project jars:
+[info] target/scala-2.11/rocketchip_2.11-1.2.jar
+[info] chisel3/target/scala-2.11/chisel3_2.11-3.1-SNAPSHOT.jar
+[info] chisel3/coreMacros/target/scala-2.11/coremacros_2.11-3.1-SNAPSHOT.jar
+[info] chisel3/chiselFrontend/target/scala-2.11/chiselfrontend_2.11-3.1-SNAPSHOT.jar
+[info] hardfloat/target/scala-2.11/hardfloat_2.11-1.2.jar
+[info] project dependencies:
+[info] org.scala-lang:scala-reflect:2.11.7
+[info] com.github.scopt:scopt_2.11:3.4.0
+[info] org.scala-lang:scala-library:2.11.7
+[info] unmanaged dependencies:
+[info] /home/leanhtien/Work/fpga-zynq/rocket-chip/lib/firrtl.jar
+[info] /home/leanhtien/Work/fpga-zynq/rocket-chip/lib/firrtl.jar
+[info] /home/leanhtien/Work/fpga-zynq/rocket-chip/lib/firrtl.jar
+[info] /home/leanhtien/Work/fpga-zynq/rocket-chip/lib/firrtl.jar
+[info] explicit dependencies:
+[info] Create a bin folder: target/pack/bin
+[info] Generating launch scripts
+[info] main class for generator: unittest.Generator
+[info] Generating target/pack/bin/generator
+[info] Generating target/pack/bin/generator.bat
+[info] main class for driver: chisel3.Driver
+[info] Generating target/pack/bin/driver
+[info] Generating target/pack/bin/driver.bat
+[info] main class for fma-test: hardfloat.FMATest
+[info] Generating target/pack/bin/fma-test
+[info] Generating target/pack/bin/fma-test.bat
+[info] packed resource directories = /home/leanhtien/Work/fpga-zynq/rocket-chip/src/pack
+[info] Generating target/pack/Makefile
+[info] Generating target/pack/VERSION
+[info] done.

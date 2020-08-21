@@ -1,0 +1,41 @@
+[debug] [naha] 
+[debug] [naha] Initial source changes: 
+[debug] [naha] 	removed:Set()
+[debug] [naha] 	added: Set()
+[debug] [naha] 	modified: Set(/home/leanhtien/Work/fpga-zynq/rocket-chip/boom/src/main/scala/configs.scala, /home/leanhtien/Work/fpga-zynq/rocket-chip/boom/src/main/scala/boom_configs.scala)
+[debug] [naha] Invalidated products: Set()
+[debug] [naha] External API changes: API Changes: Set()
+[debug] [naha] Modified binary dependencies: Set()
+[debug] [naha] Initial directly invalidated sources: Set(/home/leanhtien/Work/fpga-zynq/rocket-chip/boom/src/main/scala/configs.scala, /home/leanhtien/Work/fpga-zynq/rocket-chip/boom/src/main/scala/boom_configs.scala)
+[debug] [naha] 
+[debug] [naha] Sources indirectly invalidated by:
+[debug] [naha] 	product: Set()
+[debug] [naha] 	binary dep: Set()
+[debug] [naha] 	external source: Set()
+[debug] All initially invalidated sources: Set(/home/leanhtien/Work/fpga-zynq/rocket-chip/boom/src/main/scala/configs.scala, /home/leanhtien/Work/fpga-zynq/rocket-chip/boom/src/main/scala/boom_configs.scala)
+[debug] [naha] Initial set of included nodes: Set(/home/leanhtien/Work/fpga-zynq/rocket-chip/boom/src/main/scala/configs.scala, /home/leanhtien/Work/fpga-zynq/rocket-chip/boom/src/main/scala/boom_configs.scala)
+[info] Compiling 2 Scala sources to /home/leanhtien/Work/fpga-zynq/rocket-chip/target/scala-2.11/classes...
+[debug] Getting org.scala-sbt:compiler-interface:0.13.12:component from component compiler for Scala 2.11.7
+[debug] Getting org.scala-sbt:compiler-interface:0.13.12:component from component compiler for Scala 2.11.7
+[debug] Running cached compiler 61e93e66, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+[debug] Calling Scala compiler with arguments  (CompilerInterface):
+[debug] 	-deprecation
+[debug] 	-unchecked
+[debug] 	-bootclasspath
+[debug] 	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/leanhtien/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+[debug] 	-classpath
+[debug] 	/home/leanhtien/Work/fpga-zynq/rocket-chip/target/scala-2.11/classes:/home/leanhtien/Work/fpga-zynq/rocket-chip/chisel3/target/scala-2.11/chisel3_2.11-3.1-SNAPSHOT.jar:/home/leanhtien/Work/fpga-zynq/rocket-chip/hardfloat/target/scala-2.11/classes:/home/leanhtien/Work/fpga-zynq/rocket-chip/lib/firrtl.jar:/home/leanhtien/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.7.jar:/home/leanhtien/.ivy2/cache/com.github.scopt/scopt_2.11/jars/scopt_2.11-3.4.0.jar
+[debug] Scala compilation took 1.588932303 s
+[debug] [naha] Invalidating /home/leanhtien/Work/fpga-zynq/rocket-chip/boom/src/main/scala/boom_configs.scala...
+[debug] [naha] Invalidating (transitively) by inheritance from /home/leanhtien/Work/fpga-zynq/rocket-chip/boom/src/main/scala/boom_configs.scala...
+[debug] [naha] Initial set of included nodes: Set(/home/leanhtien/Work/fpga-zynq/rocket-chip/boom/src/main/scala/boom_configs.scala)
+[debug] [naha] Invalidated by transitive inheritance dependency: Set(/home/leanhtien/Work/fpga-zynq/rocket-chip/boom/src/main/scala/boom_configs.scala)
+[debug] [naha] The /home/leanhtien/Work/fpga-zynq/rocket-chip/boom/src/main/scala/boom_configs.scala source file has the following regular definitions changed:
+[debug] [naha] 	notify, find, wait, $asInstanceOf, alter, equals, asInstanceOf, synchronized, toInstance, $isInstanceOf, notifyAll, isInstanceOf, <init>, apply, ++, ==, alterPartial, clone, MixBoomConfig, toString, !=, getClass, ne, chain, eq, ##, finalize, hashCode.
+[debug] [naha] All member reference dependencies will be considered within this context.
+[debug] [naha] New invalidations:
+[debug] [naha] 	Set()
+[debug] [naha] Initial set of included nodes: Set()
+[debug] [naha] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] [naha] 	Set()
+[debug] [naha] All newly invalidated sources after taking into account (previously) recompiled sources:Set()
